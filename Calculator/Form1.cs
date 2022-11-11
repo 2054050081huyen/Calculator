@@ -20,7 +20,11 @@ namespace Calculator
         private void btCong_Click(object sender, EventArgs e)
         {
             int a, b, ketQua;
+<<<<<<< HEAD
             if (txtA.Text != String.Empty)
+=======
+            if (txtA.Text != String.Empty && txtB.Text != String.Empty) 
+>>>>>>> feature-cal
             {
                 a = int.Parse(txtA.Text);
                 b = int.Parse(txtB.Text);
